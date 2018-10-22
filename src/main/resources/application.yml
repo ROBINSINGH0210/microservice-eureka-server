@@ -1,0 +1,8 @@
+zuul:
+  routes:
+    currency-conversion-service:
+      path: /currency-conversion-service/**
+      url: http://localhost:8500  
+    forex-service:
+      path: /forex-service/**
+      url: http://localhost:8020
